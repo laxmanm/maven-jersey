@@ -1,5 +1,7 @@
 package com.ace.holidays.service;
+
+import com.ace.holidays.model.User;
  
 public interface TestService{ 
-	String sayHello(); 
+	String sayHello(User user); 
 }
